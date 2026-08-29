@@ -316,6 +316,15 @@ body {
   font-weight: 600;
 }
 
+.project-role {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: -8px;
+}
+
 .project-desc {
   color: var(--text-muted);
   font-size: 0.92rem;
