@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Jerc Ivan V. Ramos, BSIT student and web developer from Bulacan, Philippines."
+    />
+    <title>Jerc Ivan V. Ramos | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav-inner">
+        <a href="#top" class="nav-name">Jerc Ramos</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-inner">
+          <img
+            src="assets/photo.jpg"
+            alt="Jerc Ivan V. Ramos"
+            class="hero-photo"
+            width="480"
+            height="480"
+          />
+          <div class="hero-text">
+            <p class="hero-hello">Hello, I am</p>
+            <h1 class="hero-name">Jerc Ivan V. Ramos</h1>
+            <h2 class="hero-tagline">BSIT Student &amp; Web Developer</h2>
+            <p class="hero-intro">
+              I build web applications from database to interface and enjoy
+              turning a working requirement into something people can actually
+              use.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h2 class="section-title">About</h2>
+        <div class="about-text">
+          <p>
+            I am an Information Technology student at Bulacan State University
+            building a foundation in web development. I work across the stack I
+            know so far: PHP and MySQL on the server side, HTML, CSS, and
+            JavaScript on the front, and Firebase for full projects that need
+            authentication, storage, and hosting in one place.
+          </p>
+          <p>
+            I pick up new tools quickly, pay close attention to detail, and work
+            well with people from different backgrounds. Whether a task comes
+            with full guidance or full independence, I aim to deliver something
+            finished and correct.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <h2 class="section-title">Skills</h2>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3 class="skill-group-title">Languages &amp; Databases</h3>
+            <ul class="chips">
+              <li>Java</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>PHP</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Tools</h3>
+            <ul class="chips">
+              <li>MS Office</li>
+              <li>Gmail</li>
+              <li>Outlook</li>
+              <li>Google Calendar</li>
+              <li>Git &amp; GitHub</li>
+              <li>Firebase</li>
+              <li>XAMPP</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Strengths</h3>
+            <ul class="chips">
+              <li>Communication</li>
+              <li>Problem-Solving</li>
+              <li>Attention to Detail</li>
+              <li>Time Management</li>
+              <li>Adaptability</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <a
+              href="https://github.com/ivanramos15/help-it"
+              class="project-shot"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="assets/help-it.png"
+                alt="Help It lost and found app login page"
+                loading="lazy"
+              />
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">Help It!</h3>
+              <p class="project-desc">
+                A lost and found web app for a barangay office. Officials log
+                in, post found items with photos, and manage every record
+                together in one shared board.
+              </p>
+              <ul class="project-tags">
+                <li>React</li>
+                <li>Vite</li>
+                <li>Firebase</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://github.com/ivanramos15/help-it"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+                <a
+                  href="https://help-it----firebase-project.web.app"
+                  target="_blank"
+                  rel="noopener"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a
+              href="https://github.com/ivanramos15/student-fitness-profile-system"
+              class="project-shot"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="assets/fitness.png"
+                alt="Student Fitness Profile System login page"
+                loading="lazy"
+              />
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">Student Fitness Profile System</h3>
+              <p class="project-desc">
+                A fitness tracking system for Bulacan State University PE
+                classes. Students record pre-test and post-test results with
+                live BMI and VO2 max calculators; teachers review class-wide
+                analytics with charts.
+              </p>
+              <ul class="project-tags">
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Chart.js</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://github.com/ivanramos15/student-fitness-profile-system"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a
+              href="https://github.com/ivanramos15/mindcare-website"
+              class="project-shot"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="assets/mindcare.png"
+                alt="MindCare landing page"
+                loading="lazy"
+              />
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">MindCare</h3>
+              <p class="project-desc">
+                A landing page for a privacy-first mental health app for
+                Bulacan. Single page, plain HTML, CSS, and JavaScript, deployed
+                on GitHub Pages.
+              </p>
+              <ul class="project-tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://github.com/ivanramos15/mindcare-website"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+                <a
+                  href="https://ivanramos15.github.io/mindcare-website/"
+                  target="_blank"
+                  rel="noopener"
+                  >Live Site</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="education" class="section section-alt">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-list">
+          <div class="edu-item">
+            <h3 class="edu-school">Bulacan State University</h3>
+            <p class="edu-degree">
+              Bachelor of Science in Information Technology
+            </p>
+            <p class="edu-years">2023 - present</p>
+          </div>
+          <div class="edu-item">
+            <h3 class="edu-school">La Consolacion University Philippines</h3>
+            <p class="edu-degree">Senior High School</p>
+            <p class="edu-years">2021 - 2023</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-lead">
+          Interested in my work or want to talk about an opportunity? Reach me
+          through any of these.
+        </p>
+        <div class="contact-list">
+          <a href="mailto:ivanramos2368@gmail.com" class="contact-item">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">ivanramos2368@gmail.com</span>
+          </a>
+          <a href="tel:09765460086" class="contact-item">
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">0976-546-0086</span>
+          </a>
+          <a
+            href="https://github.com/ivanramos15"
+            target="_blank"
+            rel="noopener"
+            class="contact-item"
+          >
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/ivanramos15</span>
+          </a>
+          <div class="contact-item contact-static">
+            <span class="contact-label">Location</span>
+            <span class="contact-value">Bulacan, Philippines</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Jerc Ivan V. Ramos - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
